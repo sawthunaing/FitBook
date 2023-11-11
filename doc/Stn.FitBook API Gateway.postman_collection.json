@@ -1,0 +1,893 @@
+{
+	"info": {
+		"_postman_id": "f3f1b92a-8cd1-4787-b96d-cc07fa2331c6",
+		"name": "Stn.FitBook API Gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2903404",
+		"_collection_link": "https://winter-eclipse-541997.postman.co/workspace/abank-~df5cd4f0-c076-4a2f-96dc-4cbac2f2084d/collection/2903404-f3f1b92a-8cd1-4787-b96d-cc07fa2331c6?action=share&source=collection_link&creator=2903404"
+	},
+	"item": [
+		{
+			"name": "GetToken Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"stn@gmail.com\",\r\n  \"password\": \"string11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/LoginAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"LoginAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users Via Ocelot",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bre",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/GetUserByIdAsync?id=1",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"GetUserByIdAsync"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh Token Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " { \"username\": \"string11\",\r\n   \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmcxMSIsInJvbGUiOiJzdHJpbmcxMSIsInNjb3BlIjoidXNlciIsImV4cCI6MTY5OTUzOTg0NywiaXNzIjoic3RuX2RldiJ9.pQeusobKnpBx_6gn8myxh3PIzhU8zgyIiDkmHMUQXec\",\r\n    \"refereshToken\": \"4677bf01-ba6c-402c-a1a1-651cf602e2b8\"\r\n    \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/auth/refresh",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Revoke Token By UserName Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " { \r\n     \r\n     \"userName\": \"string11\"\r\n   \r\n    \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/auth/revoke?userName=string11'",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"revoke"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "string11'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"fullName\": \"string\",\r\n  \"countryCode\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/RegisterAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"RegisterAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ResetPasswordAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"otp\": \"string\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/ResetPasswordAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"ResetPasswordAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verifyemailasync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"guid\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/verifyemailasync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"verifyemailasync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUserAsync  Via Ocelot",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bre",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 3,\r\n  \"email\": \"string11@g.com\",\r\n  \"fullName\": \"string\",\r\n  \"countryCode\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/UpdateUserAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"UpdateUserAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangePasswordAsync Via Ocelot",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bre",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 3,\r\n  \"email\": \"string\",\r\n  \"oldPassword\": \"76d5b377ff256a017f45e84a05cf56348332d48a8e8436197f33efbe5b220e7b\",\r\n  \"newPassword\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Users/ChangePasswordAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Users",
+						"ChangePasswordAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPackagesAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Packages/GetPackagesAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Packages",
+						"GetPackagesAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPackagesByUserIdAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Packages/GetPackagesByUserIdAsync?userId=1",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Packages",
+						"GetPackagesByUserIdAsync"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchasePackageAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"packageId\": 1,\r\n  \"price\": 1,\r\n  \"countryCode\": \"SG\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/Packages/PurchasePackageAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Packages",
+						"PurchasePackageAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassScheduleByCountryAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"country\": \"SG\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/GetClassScheduleByCountryAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"GetClassScheduleByCountryAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BookClasByScheduleIDAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"scheduleId\": 1,\r\n  \"country\": \"SG\",\r\n  \"requiredCredit\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/BookClasByScheduleIDAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"BookClasByScheduleIDAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CancelBookingAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"bookingReference\": \"0a75744d-a397-44c1-a992-e911aae295d6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/CancelBookingAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"CancelBookingAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddToWaitlistAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"scheduleId\": 1,\r\n  \"country\": \"SG\",\r\n  \"requiredCredit\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/AddToWaitlistAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"AddToWaitlistAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddToWaitlistAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"scheduleId\": 1,\r\n  \"userPackageId\": 1,\r\n  \"country\": \"SG\",\r\n  \"requiredCredit\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/AddToWaitlistAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"AddToWaitlistAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckInAsync Via Ocelot",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJzdWIiOiJzdG5AZ21haWwuY29tIiwicm9sZSI6InN0bkBnbWFpbC5jb20iLCJzY29wZSI6InVzZXIiLCJleHAiOjE2OTk3MzMyMzYsImlzcyI6InN0bl9kZXYifQ.vqFCry_Bp5KSdPbqAImU_Ekp1S4EKEdT7ANwfm7xUyA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 1,\r\n  \"scheduleId\": 1,\r\n  \"bookingReference\": \"0a75744d-a397-44c1-a992-e911aae295d6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Gateway Url}}/api/v1/ClassSchedule/CheckInAsync",
+					"host": [
+						"{{Gateway Url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ClassSchedule",
+						"CheckInAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "Gateway Url",
+			"value": "http://localhost:5179",
+			"type": "string"
+		}
+	]
+}
