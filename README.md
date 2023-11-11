@@ -17,6 +17,7 @@ Features
 
 Before you run the project
 - Find Db schema and run in mysql in doc directory
+- Install Dot Net 6 sdk and Visual Studio 2022
 - Install Redis server
 - Need to run both Stn.FitBook.Api project and Stn.Fitbook.ApiGatway project
 - Import Postman Collection
