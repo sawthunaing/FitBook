@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W0C8ss0RcMD/ij5RyPRpwNdDuWGr+0Z6TJs3Zbz/zVe+czTjkjCEFSAczX0VtO5o+cgRdjllrwJS5CFBTxGuQQ==",
+  "dgSpecHash": "tRS0uGr968B4ec23f9+SqgRkh/YUZtxmBK1FZw34PEbr51ei1M8c5yqfUcNSNa9MLbItiW3qVpHqDMhVxGgUsw==",
   "success": true,
-  "projectFilePath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Api\\Stn.FitBook.Api.csproj",
+  "projectFilePath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Api\\Stn.FitBook.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\dapper\\1.60.6\\dapper.1.60.6.nupkg.sha512",

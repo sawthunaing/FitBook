@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nybKegZPj4QvYrbLnRrFZM594YRZJxesKFv+ijBjZLV6AkF2X0fdjcix415qdr9+TjCrSw6J1jMvWycOIowxxA==",
+  "dgSpecHash": "/fsBvhmcioWLfy70BiiGoOpv2SOZYtJztovCnS/z0YMu7QJyzlhHr+ANUk5ZjtuKA9kGno8zREVGuOhlBxzW9Q==",
   "success": true,
-  "projectFilePath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
+  "projectFilePath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BPA Version 2/v17
+/.vs
+/src/Bpa.Domain.Shared.Test
+/src/Domain.Shared.Console.Test
+/src/Bpa.Domain.Shared.Console.Test
+/src/Bpa.Core.Api/.config/dotnet-tools.json
+/src/Bpa.Core.Api/aws-logger-errors.txt

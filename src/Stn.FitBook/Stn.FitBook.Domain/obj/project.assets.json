@@ -426,11 +426,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
+      "projectUniqueName": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
       "projectName": "Stn.FitBook.Domain",
-      "projectPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
+      "projectPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\obj\\",
+      "outputPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

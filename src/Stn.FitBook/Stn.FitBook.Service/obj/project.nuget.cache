@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3TavaoK5zCSThPinfwrJ7i94HL7pj5eZ0RfxiTKcQ+/NE3vWHJAXS91t5ypxbu4TDIiR57o92I2velVFoLNfLw==",
+  "dgSpecHash": "mqGvt2ZRf9MNyxNR8LdVTrmu831VHg1BXiLgNLV18+xr07khqn8VZomaY7WGXI/AkmZD4hBSwkf8ytieX1XQPQ==",
   "success": true,
-  "projectFilePath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Service\\Stn.FitBook.Service.csproj",
+  "projectFilePath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Service\\Stn.FitBook.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

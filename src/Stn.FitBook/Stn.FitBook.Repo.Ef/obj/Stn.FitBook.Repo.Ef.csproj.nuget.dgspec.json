@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj": {}
+    "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj": {}
   },
   "projects": {
-    "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj": {
+    "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
+        "projectUniqueName": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
         "projectName": "Stn.FitBook.Domain",
-        "projectPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
+        "projectPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\obj\\",
+        "outputPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj": {
+    "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj",
+        "projectUniqueName": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj",
         "projectName": "Stn.FitBook.Repo.Ef",
-        "projectPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj",
+        "projectPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\Stn.FitBook.Repo.Ef.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\obj\\",
+        "outputPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Repo.Ef\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj": {
-                "projectPath": "C:\\stn_working\\Git\\Stn.FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj"
+              "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj": {
+                "projectPath": "C:\\stn_working\\Git\\FitBook\\src\\Stn.FitBook\\Stn.FitBook.Domain\\Stn.FitBook.Domain.csproj"
               }
             }
           }
