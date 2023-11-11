@@ -1,7 +1,8 @@
 # FitBook
 FitBook: Class Booking &amp; Fitness Management System
 
-![FitBook API Flow drawio](https://github.com/sawthunaing/FitBook/assets/15320315/ef4020e1-0976-48ce-b4ab-a6aa691c4ac1)
+![FitBook_Sequence drawio](https://github.com/sawthunaing/FitBook/assets/15320315/bcc1ec5f-d976-4f06-ae2c-1924d9475aaa)
+
 
 Features
 
@@ -17,6 +18,7 @@ Features
 
 Before you run the project
 - Find Db schema and run in mysql in doc directory
+- Install Dot Net 6 sdk and Visual Studio 2022
 - Install Redis server
 - Need to run both Stn.FitBook.Api project and Stn.Fitbook.ApiGatway project
 - Import Postman Collection
