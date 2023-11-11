@@ -1,0 +1,255 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/LoginAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Users/v1/LoginAsync",
+      "DownstreamHostAndPorts": [
+        {
+
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/RegisterAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Users/v1/RegisterAsync",
+      "DownstreamHostAndPorts": [
+        {
+
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/ResetPasswordAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Users/v1/ResetPasswordAsync",
+      "DownstreamHostAndPorts": [
+        {
+
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/verifyemailasync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/Users/v1/VerifyEmailAsync",
+      "DownstreamHostAndPorts": [
+        {
+
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ]
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/GetUserByIdAsync?id={id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/Users/v1/GetUserByIdAsync?Id={id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/UpdateUserAsync",
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamPathTemplate": "/Users/v1/UpdateUserAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Users/ChangePasswordAsync",
+      "UpstreamHttpMethod": [ "Put" ],
+      "DownstreamPathTemplate": "/Users/v1/ChangePasswordAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Packages/GetPackagesAsync",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/Packages/v1/GetPackagesAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Packages/GetPackagesByUserIdAsync?userId={id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/Packages/v1/GetPackagesByUserIdAsync?userId={id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/Packages/PurchasePackageAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/Packages/v1/PurchasePackageAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ClassSchedule/GetClassScheduleByCountryAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/ClassSchedule/v1/GetClassScheduleByCountryAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ClassSchedule/BookClasByScheduleIDAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/ClassSchedule/v1/BookClasByScheduleIDAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ClassSchedule/CancelBookingAsync",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/ClassSchedule/v1/CancelBookingAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ClassSchedule/AddToWaitlistAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/ClassSchedule/v1/AddToWaitlistAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/ClassSchedule/CheckInAsync",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/ClassSchedule/v1/CheckInAsync",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/v1/SchedulerForRefund/CheckRefundAfterClassJob",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/SchedulerForRefund/v1/CheckRefundAfterClassJob",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7235
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [ "user" ]
+      }
+    }
+
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5179"
+  }
+}

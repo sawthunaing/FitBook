@@ -1,0 +1,17 @@
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Service.deps.json
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Service.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Service.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Domain.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Domain.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.csproj.AssemblyReference.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.AssemblyInfoInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.AssemblyInfo.cs
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.csproj.CoreCompileInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.csproj.CopyComplete
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\refint\Stn.FitBook.Service.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\Stn.FitBook.Service.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Service\obj\Debug\net6.0\ref\Stn.FitBook.Service.dll

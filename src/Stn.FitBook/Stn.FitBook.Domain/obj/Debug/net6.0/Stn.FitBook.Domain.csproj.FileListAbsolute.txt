@@ -1,0 +1,12 @@
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\bin\Debug\net6.0\Stn.FitBook.Domain.deps.json
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\bin\Debug\net6.0\Stn.FitBook.Domain.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\bin\Debug\net6.0\Stn.FitBook.Domain.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.csproj.AssemblyReference.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.AssemblyInfoInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.AssemblyInfo.cs
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.csproj.CoreCompileInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\refint\Stn.FitBook.Domain.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\Stn.FitBook.Domain.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Domain\obj\Debug\net6.0\ref\Stn.FitBook.Domain.dll

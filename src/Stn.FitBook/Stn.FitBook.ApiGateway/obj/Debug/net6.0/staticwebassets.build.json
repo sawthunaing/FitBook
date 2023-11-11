@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S/c4AkWD+e8swyL1wKQxeQ2AyM5V2g24MsDNuy96qPw=",
+  "Source": "Stn.FitBook.ApiGateway",
+  "BasePath": "_content/Stn.FitBook.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

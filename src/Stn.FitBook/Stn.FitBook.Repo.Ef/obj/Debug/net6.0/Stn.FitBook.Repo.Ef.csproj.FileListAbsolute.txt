@@ -1,0 +1,17 @@
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.deps.json
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.runtimeconfig.json
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Repo.Ef.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Domain.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\bin\Debug\net6.0\Stn.FitBook.Domain.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.csproj.AssemblyReference.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.AssemblyInfoInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.AssemblyInfo.cs
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.csproj.CoreCompileInputs.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.csproj.CopyComplete
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\refint\Stn.FitBook.Repo.Ef.dll
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.pdb
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\Stn.FitBook.Repo.Ef.genruntimeconfig.cache
+C:\stn_working\Git\Stn.FitBook\src\Stn.FitBook\Stn.FitBook.Repo.Ef\obj\Debug\net6.0\ref\Stn.FitBook.Repo.Ef.dll
